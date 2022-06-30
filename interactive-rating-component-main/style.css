@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Overpass";
+  src: url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+}
+
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: linear-gradient(256deg, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  width: 350px;
+  height: 350px;
+  border-radius: 25px;
+  margin-top: 20vh;
+  padding: 3%;
+}
+.estrela-dourada {
+  background-color: hsl(217, 12%, 63%);
+
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+}
+h2 {
+  margin-left: 2%;
+  margin-bottom: auto;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+}
+.Rating-state-start {
+  padding: 2%;
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  font-family: "Overpass", sans-serif;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "Overpass", sans-serif;
+}
+.rate-button {
+  background-color: hsl(216, 12%, 54%);
+  height: 6vh;
+  width: 6vh;
+  border-radius: 50%;
+  border: none;
+  color: hsl(213, 19%, 18%);
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+}
+
+#submit-button {
+  width: 48vh;
+  height: 6vh;
+  border-radius: 3vh;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-size: 2.5vh;
+  margin-top: 4vh;
+}
