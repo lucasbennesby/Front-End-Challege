@@ -12,7 +12,13 @@ rate.forEach((button, i) => {
 function teste() {
   document.getElementById("card-1").style.visibility = "hidden";
   document.getElementById("card-2").style.visibility = "visible";
-  document.getElementById(
-    "rate-selected"
-  ).innerText = `You selected ${nota} out of 5`;
+  if (nota != undefined) {
+    document.getElementById(
+      "rate-selected"
+    ).innerText = `You selected ${nota} out of 5`;
+  } else {
+    document.getElementById(
+      "rate-selected"
+    ).innerText = `You selected 5 out of 5`;
+  }
 }
